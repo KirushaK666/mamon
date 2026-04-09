@@ -15,20 +15,19 @@ body {
     font-weight: 700;
 }
 
-.nav {
-        display: flex;
-    justify-content: flex-start;
-    font-size: 14px;
+.nav > li {
+    display: flex; /* чтобы кнопка и ссылки вели себя одинаково */
     align-items: center;
+    margin-left: 15px;
 }
 
-.nav>li {
-   margin-left: 15px;
-}
-
-.nav>li>a {
+.nav > li > a,
+.nav > li > button {
     text-decoration: none;
     color: #202020;
+    padding: 10px 0; /* одинаковая высота */
+    display: inline-flex; /* для выравнивания по центру */
+    align-items: center;
 }
 
 .nav_btn {
@@ -48,7 +47,7 @@ body {
 
 .logo_img {
     display: block;
-    background-image: url(../img/mamonlogo.svg);
+    background-image: url(../mamon/img/mamonlogo.img);
     width: 58px;
     height: 58px;
     margin-right: 20px;
