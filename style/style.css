@@ -34,6 +34,7 @@ body {
     background-color: #5528FF;
     border-radius: 5px;
     padding: 10px 15px;
+    color: #ffffff;
 }
 
 .logo {
@@ -44,7 +45,7 @@ body {
 
 .logo_img {
     display: block;
-    background-image: url(/img/mamonlogo.svg);
+    background-image: url(../img/mamonlogo.svg);
     width: 58px;
     height: 58px;
     margin-right: 20px;
